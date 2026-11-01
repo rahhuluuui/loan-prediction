@@ -1,0 +1,72 @@
+{
+    "numeric_features": [
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Married",
+        "Dependents",
+        "Education",
+        "Self_Employed",
+        "Property_Area"
+    ],
+    "features": [
+        "Gender",
+        "Married",
+        "Dependents",
+        "Education",
+        "Self_Employed",
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History",
+        "Property_Area"
+    ],
+    "defaults": {
+        "ApplicantIncome": 3859.0,
+        "CoapplicantIncome": 1032.0,
+        "LoanAmount": 128.0,
+        "Loan_Amount_Term": 360.0,
+        "Credit_History": 1.0,
+        "Gender": "Male",
+        "Married": "Yes",
+        "Dependents": "0",
+        "Education": "Graduate",
+        "Self_Employed": "No",
+        "Property_Area": "Semiurban"
+    },
+    "categories": {
+        "Gender": [
+            "Male",
+            "Female"
+        ],
+        "Married": [
+            "No",
+            "Yes"
+        ],
+        "Dependents": [
+            "0",
+            "1",
+            "2",
+            "3+"
+        ],
+        "Education": [
+            "Graduate",
+            "Not Graduate"
+        ],
+        "Self_Employed": [
+            "No",
+            "Yes"
+        ],
+        "Property_Area": [
+            "Urban",
+            "Semiurban",
+            "Rural"
+        ]
+    }
+}
